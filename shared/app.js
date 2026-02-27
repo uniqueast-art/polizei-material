@@ -33,6 +33,7 @@ function render(modules, query){
       <article class="card">
         <div>
           <h3 class="title">${m.title}</h3>
+          <hr class="titlehr"/>
           <hr/>
           <p class="muted">${m.desc || ""}</p>
         </div>
