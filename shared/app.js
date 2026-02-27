@@ -22,7 +22,6 @@ function matchesModule(m, query){
 function countMaterialFiles(m){
   const home = (m.home || "").trim();
   const res = (m.resources || []);
-  // Zähle alles außer dem Modulseiten-Link selbst (home endet i.d.R. mit /)
   return res.filter(r => (r.href || "").trim() && (r.href || "").trim() !== home).length;
 }
 
@@ -36,8 +35,9 @@ function render(modules, query){
   cards.innerHTML = filtered.map(m => {
     const href = m.home || "#";
     const nFiles = countMaterialFiles(m);
+
     return `
-      <article class="card cardlink" role="link" tabindex="0" data-href="${href}">
+      <article class="card">
         <div>
           <h3 class="title">${m.title}</h3>
           <p class="muted">${m.desc || ""}</p>
@@ -51,8 +51,8 @@ function render(modules, query){
         <hr/>
 
         <div class="cardfooter">
-          <a class="modlink" href="${href}">weiter</a>
-          <span class="small muted">${nFiles ? `${nFiles} Datei(en)` : ""}</span>
+          <a class="modbtn" href="${href}">weiter</a>
+          ${nFiles ? `<div class="small muted">${nFiles} Datei(en)</div>` : ``}
         </div>
       </article>
     `;
@@ -67,26 +67,6 @@ async function boot(){
 
 q.addEventListener("input", () => render(DATA.modules || [], q.value.trim()));
 clearBtn.addEventListener("click", () => { q.value = ""; render(DATA.modules || [], ""); q.focus(); });
-
-// Ganze Karte klickbar (ohne echte <a>-Klicks zu kapern)
-cards.addEventListener("click", (ev) => {
-  const a = ev.target.closest("a");
-  if (a) return;
-  const card = ev.target.closest(".cardlink");
-  if (!card) return;
-  const href = card.getAttribute("data-href");
-  if (href && href !== "#") window.location.href = href;
-});
-
-cards.addEventListener("keydown", (ev) => {
-  const card = ev.target.closest(".cardlink");
-  if (!card) return;
-  if (ev.key === "Enter" || ev.key === " ") {
-    ev.preventDefault();
-    const href = card.getAttribute("data-href");
-    if (href && href !== "#") window.location.href = href;
-  }
-});
 
 boot().catch(err => {
   stats.textContent = "Fehler beim Laden von materials.json";
