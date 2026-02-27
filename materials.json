@@ -1,1 +1,259 @@
-{ "modules": [] }
+{
+  "modules": [
+    {
+      "id": "m01",
+      "order": 1,
+      "level": 1,
+      "title": "01 – Digitale Spuren & Cybercrime (Grundlagen)",
+      "objective": "Die Auszubildenden kennen (1) grundlegende Begriffe der Themen Digitale Spuren und Cybercrime, die Zuständigkeiten und die Bekämpfungskonzeption Cybercrime und können diese wiedergeben (1).",
+      "desc": "Grundbegriffe CC/DS, Zuständigkeiten, Bekämpfungskonzeption CC in S.-H., Lagebild, Spurensuche im Wandel.",
+      "topics": [
+        "Spurensuche im Wandel der Zeit",
+        "Lagebild",
+        "Bekämpfungskonzeption CC in S.-H.",
+        "Begriffserklärungen CC/DS",
+        "Zuständigkeiten"
+      ],
+      "tags": ["cybercrime", "digitale spuren", "lagebild", "zuständigkeiten", "sh", "konzeption"],
+      "updated": "2026-02-27",
+      "home": "./module/01-digitale-spuren-cybercrime/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/01-digitale-spuren-cybercrime/" }
+      ]
+    },
+    {
+      "id": "m02",
+      "order": 2,
+      "level": 1,
+      "title": "02 – Netzwerktechnik (Grundlagen)",
+      "objective": "Die Auszubildenden kennen (1) die Grundlagen der Netzwerktechnik und können diese wiedergeben (1).",
+      "desc": "Begriffe, IPv4/IPv6, Ermittlungen zur IP-Adresse, besondere Netzwerkadressen, CMD-Befehle.",
+      "topics": [
+        "Begriffserklärungen Netzwerktechnik",
+        "Internetprotokolle IPv4 und IPv6",
+        "Ermittlungen zur IP-Adresse",
+        "Besondere Netzwerkadressen",
+        "Command (CMD)-Befehle"
+      ],
+      "tags": ["netzwerk", "ipv4", "ipv6", "ip ermittlung", "cmd", "adressen"],
+      "updated": "2026-02-27",
+      "home": "./module/02-netzwerktechnik/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/02-netzwerktechnik/" }
+      ]
+    },
+    {
+      "id": "m03",
+      "order": 3,
+      "level": 1,
+      "title": "03 – Rechtsgrundlagen (Cybercrime/DS)",
+      "objective": "Die Auszubildenden kennen (1) die themenrelevanten Rechtsgrundlagen und können diese wiedergeben (1).",
+      "desc": "StPO, StGB, TDDDG, TKG, DDG (Überblick und Einordnung).",
+      "topics": [
+        "Rechtsgrundlagen StPO",
+        "Rechtsgrundlagen StGB",
+        "TDDDG",
+        "TKG",
+        "DDG"
+      ],
+      "tags": ["recht", "stpo", "stgb", "tdddg", "tkg", "ddg"],
+      "updated": "2026-02-27",
+      "home": "./module/03-rechtsgrundlagen/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/03-rechtsgrundlagen/" }
+      ]
+    },
+    {
+      "id": "m04",
+      "order": 4,
+      "level": 3,
+      "title": "04 – Domain- & Provideranfragen (ausführen)",
+      "objective": "Die Auszubildenden können Domain- und Provideranfragen ausführen (3).",
+      "desc": "IP-Ermittlungen Teil 2, Domainaufbau, Domain-Ermittlungen, Auskunftsstellen, Providerrollen, Datenarten.",
+      "topics": [
+        "Ermittlungen zur IP-Adresse Teil 2",
+        "Domainaufbau",
+        "Ermittlungen zur Domäne",
+        "Auskunftsstellen für Domain-Daten",
+        "Accessprovider",
+        "Contentprovider",
+        "Bestands-, Verkehrs-, Inhaltsdaten"
+      ],
+      "tags": ["domain", "provider", "accessprovider", "contentprovider", "bestandsdaten", "verkehrsdaten", "inhaltsdaten"],
+      "updated": "2026-02-27",
+      "home": "./module/04-domain-provideranfragen/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/04-domain-provideranfragen/" }
+      ]
+    },
+    {
+      "id": "m05",
+      "order": 5,
+      "level": 5,
+      "title": "05 – CC-Vorgänge erstellen (erstellen)",
+      "objective": "Die Auszubildenden können CC-Vorgänge erstellen (5).",
+      "desc": "Dokumentenbearbeitung, Formularkunde, praktische Provider-Übungen.",
+      "topics": [
+        "Grundlagen Dokumentenbearbeitung",
+        "Formularkunde",
+        "Praktische Übungen zu Providern"
+      ],
+      "tags": ["vorgang", "dokumente", "formulare", "praxis", "provider"],
+      "updated": "2026-02-27",
+      "home": "./module/05-cc-vorgaenge-dokumente/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/05-cc-vorgaenge-dokumente/" }
+      ]
+    },
+    {
+      "id": "m06",
+      "order": 6,
+      "level": 1,
+      "title": "06 – Aktuelle Phänomene (Cybercrime)",
+      "objective": "Die Auszubildenden kennen (1) die Phänomene des Cybercrime und können diese wiedergeben (1).",
+      "desc": "Aktuelle Phänomene sammeln und einordnen.",
+      "topics": ["Aktuelle Phänomene"],
+      "tags": ["phaenomene", "trends", "modus operandi"],
+      "updated": "2026-02-27",
+      "home": "./module/06-phaenomene-cybercrime/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/06-phaenomene-cybercrime/" }
+      ]
+    },
+    {
+      "id": "m07",
+      "order": 7,
+      "level": 1,
+      "title": "07 – Anonymisierung (Grundlagen)",
+      "objective": "Die Auszubildenden kennen (1) die Grundlagen der Anonymisierung und können diese wiedergeben (1).",
+      "desc": "Proxy, VPN, TOR – Prinzipien, Einsatz und Grenzen.",
+      "topics": ["Proxy", "Virtual Private Network (VPN)", "The Onion Router (TOR-Browser)"],
+      "tags": ["anonymisierung", "proxy", "vpn", "tor"],
+      "updated": "2026-02-27",
+      "home": "./module/07-anonymisierung/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/07-anonymisierung/" }
+      ]
+    },
+    {
+      "id": "m08",
+      "order": 8,
+      "level": 3,
+      "title": "08 – OSINT / Internetrecherche (anwenden)",
+      "objective": "Die Auszubildenden wenden die Internetrecherche/OSInt (Open Source Intelligence) an (3).",
+      "desc": "Bildersuche, Geo-/Chronolocation, Ermittlungen in sozialen Netzwerken.",
+      "topics": ["Bildersuche", "Geolocation", "Chronolocation", "Ermittlung in sozialen Netzwerken"],
+      "tags": ["osint", "recherche", "bildersuche", "geolocation", "chronolocation", "social media"],
+      "updated": "2026-02-27",
+      "home": "./module/08-osint-internetrecherche/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/08-osint-internetrecherche/" }
+      ]
+    },
+    {
+      "id": "m09",
+      "order": 9,
+      "level": 3,
+      "title": "09 – Digitale Spuren: Computer (anwenden)",
+      "objective": "Die Auszubildenden kennen (1) die hohe Bedeutung und die Möglichkeiten der Suche, Sicherung und Auswertung von Digitalen Spuren bei Computern und wenden diese am praktischen Beispiel an (3).",
+      "desc": "Durchsuchung, Betriebssysteme, E-Mail-Header, Verschlüsselung, FiRST.",
+      "topics": ["Durchsuchung", "Betriebssysteme", "E-Mail-Header", "Verschlüsselung", "FiRST Responder Scan Tool"],
+      "tags": ["computer", "forensik", "email header", "verschluesselung", "first"],
+      "updated": "2026-02-27",
+      "home": "./module/09-digitale-spuren-computer/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/09-digitale-spuren-computer/" }
+      ]
+    },
+    {
+      "id": "m10",
+      "order": 10,
+      "level": 3,
+      "title": "10 – Digitale Spuren: Mobilgeräte (anwenden)",
+      "objective": "Die Auszubildenden kennen (1) die hohe Bedeutung und die Möglichkeiten der Suche, Sicherung und Auswertung von Digitalen Spuren bei Mobilgeräten und wenden diese am praktischen Beispiel an (3).",
+      "desc": "Sicherstellung/Umgang, Auswertung, Besonderheiten Apple & Android.",
+      "topics": ["Betriebssysteme", "Umgang bei der Sicherstellung", "Auswertung", "Besonderheiten bei Apple- und Android-Geräten"],
+      "tags": ["mobil", "apple", "android", "sicherstellung", "auswertung"],
+      "updated": "2026-02-27",
+      "home": "./module/10-digitale-spuren-mobilgeraete/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/10-digitale-spuren-mobilgeraete/" }
+      ]
+    },
+    {
+      "id": "m11",
+      "order": 11,
+      "level": 3,
+      "title": "11 – Digitale Spuren: Kraftfahrzeuge (anwenden)",
+      "objective": "Die Auszubildenden kennen (1) die hohe Bedeutung und die Möglichkeiten der Suche, Sicherung und Auswertung von Digitalen Spuren bei Kraftfahrzeugen und wenden diese am praktischen Beispiel an (3).",
+      "desc": "Spuren im Fahrzeug, Spuren aus Kfz-Apps.",
+      "topics": ["Spuren im Fahrzeug", "Spuren der Kfz-Apps"],
+      "tags": ["kfz", "fahrzeug", "apps", "telemetrie"],
+      "updated": "2026-02-27",
+      "home": "./module/11-digitale-spuren-kfz/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/11-digitale-spuren-kfz/" }
+      ]
+    },
+    {
+      "id": "m12",
+      "order": 12,
+      "level": 3,
+      "title": "12 – Digitale Spuren: WLAN/Router (anwenden)",
+      "objective": "Die Auszubildenden kennen (1) die hohe Bedeutung und die Möglichkeiten der Suche, Sicherung und Auswertung von Digitalen Spuren im WLAN und wenden diese am praktischen Beispiel an (3).",
+      "desc": "Router-Infos, Beweissicherung, Besonderheiten öffentlicher Netzwerke.",
+      "topics": ["Informationen eines Routers", "Beweissicherung eines Routers", "Besonderheiten von Öffentlichen Netzwerken"],
+      "tags": ["wlan", "router", "beweissicherung", "oeffentliche netzwerke"],
+      "updated": "2026-02-27",
+      "home": "./module/12-digitale-spuren-wlan-router/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/12-digitale-spuren-wlan-router/" }
+      ]
+    },
+    {
+      "id": "m13",
+      "order": 13,
+      "level": 3,
+      "title": "13 – Digitale Spuren: Smart-Home/IoT (anwenden)",
+      "objective": "Die Auszubildenden kennen (1) die hohe Bedeutung und die Möglichkeiten der Suche, Sicherung und Auswertung von Digitalen Spuren im Smart-Home und wenden diese am praktischen Beispiel an (3).",
+      "desc": "Cloud, Smart Watches, Sprachassistenten, Drohnen.",
+      "topics": ["Cloud Daten", "Smart Watches", "Sprachassistenten", "Drohnen"],
+      "tags": ["smarthome", "iot", "cloud", "wearables", "sprachassistent", "drohnen"],
+      "updated": "2026-02-27",
+      "home": "./module/13-digitale-spuren-smarthome-iot/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/13-digitale-spuren-smarthome-iot/" }
+      ]
+    },
+    {
+      "id": "m14",
+      "order": 14,
+      "level": 3,
+      "title": "14 – Praxisübungen (anwenden)",
+      "objective": "Die Auszubildenden können die Cybercrime- und digitalen Kenntnisse in der Praxis anwenden (3).",
+      "desc": "Praktische Übungen / Szenarien.",
+      "topics": ["Praktische Übungen"],
+      "tags": ["praxis", "uebung"],
+      "updated": "2026-02-27",
+      "home": "./module/14-praxisuebungen/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/14-praxisuebungen/" }
+      ]
+    },
+    {
+      "id": "m15",
+      "order": 15,
+      "level": 3,
+      "title": "15 – Klausur",
+      "objective": "Klausur.",
+      "desc": "Klausurhinweise, Lernplan, ggf. Beispielaufgaben (ohne Lösungen).",
+      "topics": ["Klausur"],
+      "tags": ["klausur"],
+      "updated": "2026-02-27",
+      "home": "./module/15-klausur/",
+      "resources": [
+        { "label": "Modulseite (HTML)", "href": "./module/15-klausur/" }
+      ]
+    }
+  ]
+}
