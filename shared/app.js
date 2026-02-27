@@ -32,7 +32,7 @@ function render(modules, query){
     return `
       <article class="card">
         <div>
-          <h3 class="title">${m.title}</h3>
+          <h3 class="title">${((m.title ?? "")).replace(/\s*\(anwenden\)\s*/gi," ").trim()}</h3>
           <p class="muted">${m.desc || ""}</p>
         </div>
 
