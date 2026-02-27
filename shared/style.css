@@ -29,3 +29,16 @@ hr{border:none;border-top:1px solid #eee;margin:6px 0}
 .cardlink:focus-visible{outline:2px solid #0b57d0; outline-offset:3px}
 .cardfooter{display:flex; align-items:center; justify-content:space-between; gap:10px}
 .modlink{font-weight:600}
+
+/* "weiter" Button im Dashboard */
+.modlink{
+  display:inline-block;
+  padding:8px 12px;
+  border:1px solid #ddd;
+  border-radius:12px;
+  background:#fff;
+  text-decoration:none;
+  font-weight:600;
+}
+.modlink:hover{background:#f3f3f3}
+.modlink:focus-visible{outline:2px solid #0b57d0; outline-offset:2px}

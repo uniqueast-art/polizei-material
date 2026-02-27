@@ -51,7 +51,7 @@ function render(modules, query){
         <hr/>
 
         <div class="cardfooter">
-          <a class="modlink" href="${href}">Modulseite</a>
+          <a class="modlink" href="${href}">weiter</a>
           <span class="small muted">${nFiles ? `${nFiles} Datei(en)` : ""}</span>
         </div>
       </article>
