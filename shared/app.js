@@ -42,6 +42,8 @@ function render(modules, query){
           ${(m.tags || []).slice(0,6).map(t => `<span class="tag">${t}</span>`).join("")}
         </div>
 
+        <div class="grow"></div>
+
         <hr/>
 
         <div class="cardfooter">
