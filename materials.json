@@ -26,7 +26,7 @@
       "home": "./module/01-digitale-spuren-cybercrime/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/01-digitale-spuren-cybercrime/"
         }
       ]
@@ -57,7 +57,7 @@
       "home": "./module/02-netzwerktechnik/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/02-netzwerktechnik/"
         }
       ]
@@ -88,7 +88,7 @@
       "home": "./module/03-rechtsgrundlagen/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/03-rechtsgrundlagen/"
         }
       ]
@@ -122,7 +122,7 @@
       "home": "./module/04-domain-provideranfragen/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/04-domain-provideranfragen/"
         }
       ]
@@ -150,7 +150,7 @@
       "home": "./module/05-cc-vorgaenge-dokumente/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/05-cc-vorgaenge-dokumente/"
         }
       ]
@@ -174,7 +174,7 @@
       "home": "./module/06-phaenomene-cybercrime/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/06-phaenomene-cybercrime/"
         }
       ]
@@ -201,7 +201,7 @@
       "home": "./module/07-anonymisierung/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/07-anonymisierung/"
         }
       ]
@@ -231,7 +231,7 @@
       "home": "./module/08-osint-internetrecherche/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/08-osint-internetrecherche/"
         },
         {
@@ -269,7 +269,7 @@
       "home": "./module/09-digitale-spuren-computer/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/09-digitale-spuren-computer/"
         }
       ]
@@ -298,7 +298,7 @@
       "home": "./module/10-digitale-spuren-mobilgeraete/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/10-digitale-spuren-mobilgeraete/"
         }
       ]
@@ -324,7 +324,7 @@
       "home": "./module/11-digitale-spuren-kfz/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/11-digitale-spuren-kfz/"
         }
       ]
@@ -351,7 +351,7 @@
       "home": "./module/12-digitale-spuren-wlan-router/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/12-digitale-spuren-wlan-router/"
         }
       ]
@@ -381,7 +381,7 @@
       "home": "./module/13-digitale-spuren-smarthome-iot/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/13-digitale-spuren-smarthome-iot/"
         }
       ]
@@ -404,7 +404,7 @@
       "home": "./module/14-praxisuebungen/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/14-praxisuebungen/"
         }
       ]
@@ -426,7 +426,7 @@
       "home": "./module/15-klausur/",
       "resources": [
         {
-          "label": "Modulseite (HTML)",
+          "label": "Modulseite",
           "href": "./module/15-klausur/"
         }
       ]
