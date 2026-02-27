@@ -237,6 +237,10 @@
         {
           "label": "osint-uebung.html",
           "href": "./module/08-osint-internetrecherche/osint-uebung.html"
+        },
+        {
+          "label": "MeinHandout.pdf",
+          "href": "./module/08-osint-internetrecherche/MeinHandout.pdf"
         }
       ]
     },
