@@ -19,12 +19,6 @@ function matchesModule(m, query){
   return norm(hay).includes(norm(query));
 }
 
-function countMaterialFiles(m){
-  const home = (m.home || "").trim();
-  const res = (m.resources || []);
-  return res.filter(r => (r.href || "").trim() && (r.href || "").trim() !== home).length;
-}
-
 function render(modules, query){
   const filtered = modules
     .filter(m => matchesModule(m, query))
@@ -34,7 +28,6 @@ function render(modules, query){
 
   cards.innerHTML = filtered.map(m => {
     const href = m.home || "#";
-    const nFiles = countMaterialFiles(m);
 
     return `
       <article class="card">
@@ -45,14 +38,12 @@ function render(modules, query){
 
         <div class="tags">
           ${(m.tags || []).slice(0,6).map(t => `<span class="tag">${t}</span>`).join("")}
-          ${m.level ? `<span class="tag">Level ${m.level}</span>` : ""}
         </div>
 
         <hr/>
 
         <div class="cardfooter">
           <a class="modbtn" href="${href}">weiter</a>
-          ${nFiles ? `<div class="small muted">${nFiles} Datei(en)</div>` : ``}
         </div>
       </article>
     `;
