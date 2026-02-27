@@ -66,3 +66,27 @@ hr{border:none;border-top:1px solid #eee;margin:6px 0}
 }
 .modbtn:hover{background:#f3f3f3}
 .modbtn:focus-visible{outline:2px solid #0b57d0; outline-offset:2px}
+
+/* Footer unten mittig im Card-Flex */
+.cardfooter{
+  margin-top:auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+}
+
+/* "weiter" Button: eher wie der alte Link (nicht riesig) */
+.modbtn{
+  display:inline-block;
+  padding:6px 12px;
+  border:1px solid #ddd;
+  border-radius:12px;
+  background:#fff;
+  text-decoration:none;
+  font-weight:600;
+  font-size:14px;
+}
+.modbtn:hover{background:#f3f3f3}
+.modbtn:focus-visible{outline:2px solid #0b57d0; outline-offset:2px}
