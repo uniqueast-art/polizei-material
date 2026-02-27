@@ -77,3 +77,23 @@ hr{border:none;border-top:1px solid #eee;margin:6px 0}
 
 /* Spacer, damit Trennlinie + Button in jeder Kachel gleich hoch sitzen */
 .grow{flex:1}
+
+
+/* Kacheln: Inhalt oben, Strich + Footer unten */
+div:has(> .cardfooter){
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  align-self:stretch;
+}
+
+/* Spacer füllt Resthöhe innerhalb der Kachel */
+.grow{ flex:1 1 auto; }
+
+/* Der eine sichtbare Trennstrich */
+.cardhr{
+  border:0;
+  border-top:1px solid #d0d0d0;
+  margin:10px 0 10px 0;
+  width:100%;
+}

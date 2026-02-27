@@ -33,8 +33,6 @@ function render(modules, query){
       <article class="card">
         <div>
           <h3 class="title">${m.title}</h3>
-          <hr class="titlehr"/>
-          <hr/>
           <p class="muted">${m.desc || ""}</p>
         </div>
 
@@ -44,8 +42,7 @@ function render(modules, query){
 
         <div class="grow"></div>
 
-        <hr/>
-
+        <hr class="cardhr"/>
         <div class="cardfooter">
           <a class="modbtn" href="${href}">weiter</a>
         </div>
